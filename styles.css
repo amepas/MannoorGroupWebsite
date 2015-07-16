@@ -1,0 +1,6 @@
+<!-- This will be the external css for formatting the header and footer -->
+
+body, html {
+    width: 100%;
+    margin: 0;
+}
