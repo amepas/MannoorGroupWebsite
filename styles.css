@@ -4,3 +4,25 @@ body, html {
     width: 100%;
     margin: 0;
 }
+div.header {width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+height: 50%;}
+
+.title {font-family:'Open Sans', 
+    sans-serif;
+color:black;
+text-align: center;}
+
+div.navbarmenu{width: 100%;
+border-radius: 3%;
+background-color: cornflowerblue;}
+
+
+
+
+
+
+
+
+
