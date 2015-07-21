@@ -1,25 +1,50 @@
-<!-- This will be the external css for formatting the header and footer -->
-
-body, html {
-    width: 100%;
+@font-face {
+    font-family: ProximaNova;
+    src: url('fonts/ProximaNova-Regular.otf');   
+}
+body, html{
+    width: 100%; 
     margin: 0;
 }
-div.header {width: 90%;
-margin-left: 5%;
-margin-right: 5%;
-height: 50%;}
 
-.title {font-family:'Open Sans', 
-    sans-serif;
-color:black;
-text-align: center;}
-
-div.navbarmenu{width: 100%;
-border-radius: 3%;
-background-color: cornflowerblue;}
+div.header{height: 10em;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+background-color:aqua;
+}
 
 
+div.navcontainer{
+    height: 4em;
+    background-color:  blueviolet;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    top: 0;
+    width: 90%;
+}
+ul.nav{
+    height: 4em;
+    list-style-type: none;
+    margin: 0;
+}
+li.nav{
+    display: inline-block;
+    padding-left: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
 
+div.title{position: relative;
+    margin-top: 3em;
+text-align: center}
+
+.bodytop{height: auto;
+width: 80%;
+margin-left: 10%}
+
+div#banner{margin-top: 5%; height: 30%; width: 100%;}
 
 
 
