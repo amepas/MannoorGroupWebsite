@@ -60,7 +60,70 @@ margin-left: 10%}
 	left: 0;
 }
 
+div#ScientificApproach{
+width:30%;
+    
+height:25em;
+float:left;
+    border:1px solid black;
+margin:0em;
+    margin-left:7.17em;
+    padding:0px;
 
+}
 
+div#SciApproachText{
+    
+   border: 1px dotted black; 
+width:55%;
+    margin-right:3em;
+    height:25em;
+    float:right;
+    
+    
+    
+}
+p#SciApproachPara{
+    
+text-align:center;
+    margin-top:3em;
+    padding-top:3em;
+    
+    
+}
 
+ul#listsciapproach{
+    
+ text-align:center;   
 
+    
+}
+
+div#BioInteg{
+ float:right;
+width:30%;
+    
+height:25em;
+    border:1px solid black;
+    margin-right: 3em;
+}
+
+div#BioIntegTxt{
+float:left;
+    width:55%;
+margin:0px;
+    margin-left:7em;
+    height:25em;
+    border:1px solid black;
+    
+    
+}
+
+p#BioIntegPara{
+ text-align:center;
+    margin-top:5em;
+    padding-top:5em;
+    
+    
+    
+}
