@@ -6,25 +6,30 @@ body, html{
     width: 100%; 
     margin: 0;
 }
-
-
-div.header{height: 10em;
-width: 80%;
-margin-left: 10%;
-margin-right: 10%;
-background-color:aqua;
+div.header{height: auto;
+width: 100%;
+background: url('pictures/ComputerBrain.jpg');
+background-position: center;
+background-size: 100% 100%;
 }
 
 
+div.navbar{
+    height: 4em;;
+    line-height: 4em;
+    margin: 0;
+    padding: 0;
+}
+div.title{
+    color: white;
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
 div.navcontainer{
-    height: 4em;
-    background-color:  blueviolet;
-    border-radius: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    position: relative;
+    position: absolute;
     top: 0;
-    width: 90%;
+    right: 5%;
+    width: inherit;
 }
 ul.nav{
     height: 4em;
@@ -36,22 +41,25 @@ li.nav{
     padding-left: 1em;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-div.title{position: relative;
-    margin-top: 3em;
-text-align: center}
+a.nav:hover{color: bisque; opacity: 1;}
+a.nav {color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;}
 
 .bodytop{height: auto;
-width: auto;
-margin-left: 10%}
+width: 80%;
+    margin: auto;}
 
 #rotating-item-wrapper {
+    margin: auto;
 	position: relative;
-	width: 980px;
-	height: 347px;
+	width: 60%;
+	height: 30%;
 }
 .rotating-item {
 	display: none;
@@ -59,6 +67,7 @@ margin-left: 10%}
 	top: 0;
 	left: 0;
 }
+
 
 div#ScientificApproach{
 width:30%;
@@ -68,9 +77,24 @@ float:left;
     border:1px solid black;
 margin:0em;
     margin-left:7.17em;
-    padding:0px;
+    padding:0px;}
 
+div.researchgroup {width:60%;
+margin: auto;
+height: auto;
+margin-top: 3%;
+padding: 2%;
+text-align: center;
+font-size: 18;
+font-family: 'Montserrat', sans-serif;
+color: aliceblue;
 }
+
+hr{width: 80%;
+margin: auto;
+opacity: 0.8;
+color: whitesmoke;}
+
 
 div#SciApproachText{
     
