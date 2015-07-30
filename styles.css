@@ -59,13 +59,13 @@ width: 80%;
     margin: auto;
 	position: relative;
 	width: 60%;
-	height: 30%;
+	height: 400px;
 }
 .rotating-item {
 	display: none;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 155px ;
 }
 
 
